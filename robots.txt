@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Common crawl optimizations
+Crawl-delay: 10
+
+# Prevent crawling of specific paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
